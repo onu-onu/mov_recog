@@ -2,3 +2,4 @@ data/
 yolov5/
 venv/
 yolov5s.pt
+out/

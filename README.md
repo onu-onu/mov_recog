@@ -14,6 +14,8 @@
     git clone https://github.com/ultralytics/yolov5
     ```
 
+※上記をまとめた `setup.sh` を用意しました (macOS, Linux系のみ)
+
 ## サンプルデータ取得
 1. 以下リンクからデータ取得 \
     https://www2.nhk.or.jp/archives/movies/?id=D0002060618_00000
