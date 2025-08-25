@@ -5,13 +5,17 @@
     python3 -m venv venv
     . venv/bin/activate
     ```
-1. ライブラリインストール
-    ```
-    pip install -r requirements.txt
-    ```
 1. YOLOv5のインストール
     ```
     git clone https://github.com/ultralytics/yolov5
+    ```
+1. ライブラリインストール
+    ```
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+    cd yolov5/
+    pip install -r requirements.txt
+    pip install sentence-transformers scikit-learn
+    pip install --upgrade jupyter ipywidgets
     ```
 
 ※上記をまとめた `setup.sh` を用意しました (macOS, Linux系のみ)
