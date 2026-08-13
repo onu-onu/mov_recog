@@ -4,3 +4,4 @@ venv/
 yolov5s.pt
 out/
 *.mp4
+*.wav
